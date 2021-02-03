@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1200px;
+}
+
+.menu {
+    background-color: darkolivegreen;
+    height: 50px;
+
+}
+
+.cabecalho img{
+    height: 450px;
+    width: 1200px;
+    padding: 32px;
+}
+
+.slogan {
+    font-size: 14px;
+}
+
+.sobre-nos {
+    padding: 650px;
+    height: 250px;
+    width: 1200px;
+}
+
+
+.footer {
+    background-color: darkolivegreen;
+    height: 130px;
+}
+
+.redes-sociais img {
+    width: 25px;
+    height: 25px;
+}
+
