@@ -5,35 +5,65 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    width: 1200px;
+    width: 900px;
+    
 }
 
 .menu {
-    background-color: darkolivegreen;
-    height: 50px;
+    background-color: rgb(34, 51, 4);
+    text-decoration: none;
+    height: 50px;    
+    display: flex;
+    width: 960px;      
 
+   
 }
 
-.cabecalho img{
+.cabecalho a {
+    text-decoration: none;
+    color: orange; 
+}
+
+.banner img{
     height: 450px;
-    width: 1200px;
-    padding: 32px;
+    width: 960px;
+
+    
 }
 
 .slogan {
-    font-size: 14px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 80px;
+   
 }
 
 .sobre-nos {
-    padding: 650px;
+    /*padding: 550px;*/
+    margin-top: 300px;
     height: 250px;
     width: 1200px;
+    color: white;
+    text-align: end;
+}
+
+.servicos {
+    margin-top: 5px;
+    height: 250px;
+    width: 1200px;
+    display: inline-flex;
+}
+
+.servicos img {
+    height: 250px;
+    width: 300x;
 }
 
 
 .footer {
-    background-color: darkolivegreen;
+    background-color:  rgb(34, 51, 4);
     height: 130px;
+    
 }
 
 .redes-sociais img {
