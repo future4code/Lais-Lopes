@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Portal Turismo</title>
+  </head>
+  <body>
+
+    <header class="cabecalho">
+      <div class= menu>
+        <a href="./index.html">Página Inicial</a>
+        <a href="./ctrl-pacotesViagens.html">Pacotes de viagens</a>
+        <a href=".//add-destinos.html">Adicionar Destinos</a>
+        <a href="./guiasDeTurismo.html">Guias de turismo</a>
+      </div>    
+    </header>
+
+    <div>
+        <table>
+            <thead><h1>Histórico de vendas</h1></thead>
+            <tr>
+              <th>Agente de viagem</th>
+              <th>Destino</th>
+              <th>Data</th>
+              <th>Valor Total</th>
+              <th>Forma de pagamento</th>
+            </tr>
+    
+            <tr>
+              <td>--</td>
+              <td>--</td>
+              <td>--</td>
+              <td>--</td>
+              <td>--</td>       
+            </tr>
+    
+            <tr>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>       
+              </tr>
+
+            </tr>
+          </table>
+    </div>
+
+    <form>
+        <div>
+            <label for="nomeAgente">Agente de viagem</label>
+            <br />
+            <input id="nomeAgente" type="text" maxlength="35" minlength="3" name="nomeAgente"/>
+        </div>
+
+        <div class="destino">
+            <div>
+                <label for="destino">Pacote de viagem</label>
+                <select id="destino" required>
+                    <option value="" disabled selected>Selecione</option>
+                    <option value="ecopacote">Barreirinhas-MA</option>
+                    <option value="ecopacote">Bonito-MS</option>
+                    <option value="ecopacote">Capitólio-MG</option>
+                    <option value="ecopacote">Fernando de Noronha-PE</option>
+                    <option value="ecopacote">Maragogi-AL</option>
+                    <option value="ecopacote">Petar-SP</option>
+                    <option value="ecopacote">Serra da Mantiqueira-MG</option>
+                </select>
+            </div>
+                  
+        <div>
+            <label for="valorTotal">Quantidade de pessoas</label>
+            <br />
+            <input id="valorTotal" type="number" />
+        </div>
+
+        <div>
+            <label for="valorTotal">Valor Total</label>
+            <br />
+            <input id="valorTotal" type="" />
+        </div>
+
+        <div class="pagamento">
+            <div>
+                <label for="formaDePagamento"> Forma de pagamento</label>
+                <select id="formaDePagamento" required>
+                    <option value="" disabled selected>Selecione</option>
+                    <option value="debito">Débito automático</option>
+                    <option value="credito">Cartão de crédito</option>
+                    <option value="pix">PIX</option>
+                </select>
+            </div>
+
+        <input type="submit" value="Consultar" />
+    </form>
+
+
+
+  
+
+    <footer class="footer">
+        
+    <div>
+        <p>Siga-nos nas redes sociais!</p>
+  
+        <div class="redes-sociais">
+          <img src="https://image.flaticon.com/icons/png/512/25/25305.png" />
+          <img src="https://image.flaticon.com/icons/png/512/25/25425.png" />
+          <img src="https://image.flaticon.com/icons/png/512/8/8800.png" />
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
