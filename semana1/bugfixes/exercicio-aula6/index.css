@@ -151,9 +151,9 @@ td button {
 }
 
 #back-button {
-    background-color: white;
-    width: 100px;
-    height: 20px;
+    background-color: rgb(187, 186, 186);
+    width: 120px;
+    height: 25px;
     border: 1px solid black;
     border-radius: 5px;
     font-size: 10px;
