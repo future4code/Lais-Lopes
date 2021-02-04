@@ -47,11 +47,24 @@ div img {
     font-size: 20px;
     color: white;
     display: block;
-    margin: 15px auto;
-    
+    margin: 15px auto;    
+}
+.botao-amarelo:hover {
+    background-color: #c44f00;
 }
 
-.botao-amarelo:hover {
+.buttoon-comprar {
+    background-color: #f7bb83;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    display: block;
+    margin: 15px auto;
+}
+
+.buttoon-comprar:hover {
     background-color: #c44f00;
 }
 
