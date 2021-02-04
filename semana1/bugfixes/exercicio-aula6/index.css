@@ -54,7 +54,7 @@ div img {
 }
 
 .buttoon-comprar {
-    background-color: #f7bb83;
+    background-color: #f7a65b;
     width: 150px;
     height: 30px;
     border-radius: 5px;
@@ -116,6 +116,14 @@ div:last-child {
     text-align: center;
 }
 
+#busca {  
+    border-top: 0px;
+    border-left: 0px; 
+    border-right: 0px;
+}
+
+
+
 table {
     width: 60%;
 }
@@ -130,7 +138,8 @@ td button {
 
 .container-do-search {
     margin-top: 20px;
-    height: 100px; 
+    height: 100px;
+    border: ; 
 }
 
 #back-button {
