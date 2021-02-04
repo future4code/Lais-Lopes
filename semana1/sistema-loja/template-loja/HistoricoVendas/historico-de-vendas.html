@@ -10,46 +10,22 @@
   <body>
 
     <header class="cabecalho">
-      <div class= menu>
-        <a href="./index.html">Página Inicial</a>
-        <a href="./ctrl-pacotesViagens.html">Pacotes de viagens</a>
-        <a href=".//add-destinos.html">Adicionar Destinos</a>
-        <a href="./guiasDeTurismo.html">Guias de turismo</a>
-      </div>    
+      <div id= menu>
+        <a href="../Home/index.html">Página Inicial</a>
+        <a href="../PacoteViagens/">Pacotes de viagens</a>
+        <a href="../Destinos/">Adicionar Destinos</a>
+        <a href="../AgenteViagens/">Guias de turismo</a>
+        <a href="../GestaoVendas/">Gestão de vendas</a>
+        <a href="../LoginIntranet/">Intranet</a>        
+      </div>  
     </header>
 
-    <div>
-        <table>
-            <thead><h1>Histórico de vendas</h1></thead>
-            <tr>
-              <th>Agente de viagem</th>
-              <th>Destino</th>
-              <th>Data</th>
-              <th>Valor Total</th>
-              <th>Forma de pagamento</th>
-            </tr>
-    
-            <tr>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>       
-            </tr>
-    
-            <tr>
-                <td>--</td>
-                <td>--</td>
-                <td>--</td>
-                <td>--</td>
-                <td>--</td>       
-              </tr>
+           
+    <!--Testando a tabela como formulário-->
 
-            </tr>
-          </table>
-    </div>
+    <form class="tabela-historicoV">
 
-    <form>
+      <thead><h1>Histórico de vendas</h1></thead>
         <div>
             <label for="nomeAgente">Agente de viagem</label>
             <br />
@@ -96,9 +72,6 @@
 
         <input type="submit" value="Consultar" />
     </form>
-
-
-
   
 
     <footer class="footer">

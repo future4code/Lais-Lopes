@@ -1,73 +1,99 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    width: 900px;
+    height: 1800px;
+    width: 950px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+   
     
 }
 
-.menu {
+#menu {
+    /*padding: 0;*/
     background-color: rgb(34, 51, 4);
     text-decoration: none;
     height: 50px;    
-    display: flex;
-    width: 960px;      
-
-   
+    /*display: flex;*/
+    width: 960px;    
 }
 
-.cabecalho a {
+#menu a {
     text-decoration: none;
-    color: orange; 
+    color: orange;
+    padding: 15px;
+    display: inline-block;    
 }
 
 .banner img{
     height: 450px;
-    width: 960px;
-
-    
+    width: 960px;    
 }
 
 .slogan {
     font-size: 16px;
     text-align: center;
-    margin-top: 80px;
-   
+    margin-top: -150px;   
+}
+
+.slogan p, h2 {
+    color: white;
+     
 }
 
 .sobre-nos {
-    /*padding: 550px;*/
-    margin-top: 300px;
+    /*padding: 550px;*/    
     height: 250px;
-    width: 1200px;
-    color: white;
-    text-align: end;
+    width: 900px;    
+    color: black;
+    text-align: center;
+    margin: 220px 0px 150px 0px;
 }
 
-.servicos {
-    margin-top: 5px;
-    height: 250px;
-    width: 1200px;
-    display: inline-flex;
+.sobre-nos h3 {
+    font-size: 22px;
+}
+
+.servicos {    
+    height: 1200px;
+    width: 1100px;    
+
 }
 
 .servicos img {
-    height: 250px;
-    width: 300x;
+    height: 250px;    
+    display: block;    
+    margin: auto;    
+}
+
+.pacoteTur {
+    display: inline-flex;
+    
 }
 
 
 .footer {
     background-color:  rgb(34, 51, 4);
-    height: 130px;
-    
+    height: 130px; 
+    text-align: center;
+      
+}
+
+.footer p {
+    color: orange;
+    padding-top:35px; 
 }
 
 .redes-sociais img {
     width: 25px;
     height: 25px;
+    margin: 15px 10px;
 }
 
