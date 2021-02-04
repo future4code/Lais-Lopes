@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Portal Turismo</title>
+  </head>
+  <body>
+
+    <header class="cabecalho">
+      <div id= menu>
+        <a href="../Home/index.html">Página Inicial</a>
+        <a href="../PacoteViagens/">Pacotes de viagens</a>
+        <a href="../Destinos/">Adicionar Destinos</a>
+        <a href="../AgenteViagens/">Guias de turismo</a>
+        <a href="../GestaoVendas/">Gestão de vendas</a>
+        <a href="../LoginIntranet/">Intranet</a>        
+      </div>  
+    </header>
+
+           
+    <!--Testando a tabela como formulário-->
+
+    <form class="tabela-historicoV">
+
+      <thead><h1>Histórico de vendas</h1></thead>
+        <div>
+            <label for="nomeAgente">Agente de viagem</label>
+            <br />
+            <input id="nomeAgente" type="text" maxlength="35" minlength="3" name="nomeAgente"/>
+        </div>
+
+        <div class="destino">
+            <div>
+                <label for="destino">Pacote de viagem</label>
+                <select id="destino" required>
+                    <option value="" disabled selected>Selecione</option>
+                    <option value="ecopacote">Barreirinhas-MA</option>
+                    <option value="ecopacote">Bonito-MS</option>
+                    <option value="ecopacote">Capitólio-MG</option>
+                    <option value="ecopacote">Fernando de Noronha-PE</option>
+                    <option value="ecopacote">Maragogi-AL</option>
+                    <option value="ecopacote">Petar-SP</option>
+                    <option value="ecopacote">Serra da Mantiqueira-MG</option>
+                </select>
+            </div>
+                  
+        <div>
+            <label for="valorTotal">Quantidade de pessoas</label>
+            <br />
+            <input id="valorTotal" type="number" />
+        </div>
+
+        <div>
+            <label for="valorTotal">Valor Total</label>
+            <br />
+            <input id="valorTotal" type="" />
+        </div>
+
+        <div class="pagamento">
+            <div>
+                <label for="formaDePagamento"> Forma de pagamento</label>
+                <select id="formaDePagamento" required>
+                    <option value="" disabled selected>Selecione</option>
+                    <option value="debito">Débito automático</option>
+                    <option value="credito">Cartão de crédito</option>
+                    <option value="pix">PIX</option>
+                </select>
+            </div>
+
+        <input type="submit" value="Consultar" />
+    </form>
+  
+
+    <footer class="footer">
+        
+    <div>
+        <p>Siga-nos nas redes sociais!</p>
+  
+        <div class="redes-sociais">
+          <img src="https://image.flaticon.com/icons/png/512/25/25305.png" />
+          <img src="https://image.flaticon.com/icons/png/512/25/25425.png" />
+          <img src="https://image.flaticon.com/icons/png/512/8/8800.png" />
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>

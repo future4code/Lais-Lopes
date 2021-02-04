@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Portal Turismo</title>
+  </head>
+  <body>
+
+    <header class="cabecalho">
+      <div id= menu>
+        <a href="../Home/index.html">Página Inicial</a>
+        <a href="../PacoteViagens/">Pacotes de viagens</a>
+        <a href="../Destinos/">Adicionar Destinos</a>
+        <a href="../AgenteViagens/">Guias de turismo</a>
+        <a href="../GestaoVendas/">Gestão de vendas</a>
+        <a href="../LoginIntranet/">Intranet</a>        
+      </div>
+    </header>
+
+    <!--Testando a tabela como lista-->
+
+    <table>
+        <thead><h1>Gestão de vendas</h1></thead>    
+
+      <ul>
+        <li>
+            <label for="nomeCliente">Nome do cliente</label>
+            <br />
+            <input id="nomeCliente" type="text" maxlength="35" minlength="3" name="nomeCliente"/>
+        </li>
+
+        <li>
+            <label for="qtd">Número de pessoa</label>
+            <br />
+            <input id="qtd" type="number" />
+        </li>
+
+        <li>
+            <label for="codigo">Código do pacote de viagem</label>
+            <br />
+            <input id="codigo" type="text" maxlength="20" minlength="1" name="codigo" />
+        </li>
+
+        <li>
+            <label for="destino">Destino</label>
+            <br />
+            <input id="destino" type="text"/>
+        </li>
+
+        <li>
+            <label for="valorUnit">Valor Unitário</label>
+            <br />
+            <input id="valorUnit" type="" />
+        </li>
+
+                
+        <li>
+            <label for="valorTotal">Valor Total</label>
+            <br />
+            <input id="valorTotal" type="" />
+        </li>
+
+        <li class="pagamento">
+            <li>
+                <label for="formaDePagamento"> Forma de pagamento</label>
+                <select id="formaDePagamento" required>
+                    <option value="" disabled selected>Selecione</option>
+                    <option value="debito">Débito automático</option>
+                    <option value="credito">Cartão de crédito</option>
+                    <option value="pix">PIX</option>
+                </select>
+            </li>
+          </li>
+
+        <input type="submit" value="Inserir" />
+    </ul>
+
+  
+
+    <footer class="footer">
+        
+    <div>
+        <p>Siga-nos nas redes sociais!</p>
+  
+        <div class="redes-sociais">
+          <img src="https://image.flaticon.com/icons/png/512/25/25305.png" />
+          <img src="https://image.flaticon.com/icons/png/512/25/25425.png" />
+          <img src="https://image.flaticon.com/icons/png/512/8/8800.png" />
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
