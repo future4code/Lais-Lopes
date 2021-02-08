@@ -4,12 +4,12 @@ Esse repositório vai acompanhar vocês até o final do curso, para mantermos a 
 
 ```
 .
-├── semana-1
-│   ├── aula1
-│   ├── aula2
-│   ├── aula3
-│   ├── aula4
-│   └── projeto-nome
+├── semana-1 Turma Cruz Labenu
+│   ├── aula1-Terminal / Git & GitHub
+│   ├── aula2-HTML
+│   ├── aula3-CSS I
+│   ├── aula4-CSS II
+│   └── projeto-Portifólio
 |
 ├── semana-2
 │   ├── aula5
