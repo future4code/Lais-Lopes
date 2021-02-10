@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+
+main {
+    background:rgb(87, 87, 87);
+    width: 1400px;
+    height: 885px;
+}
+
+.menu {
+    background: rgb(239, 187, 64);
+    width: auto;
+    height: 40px;
+    padding: 15px 40px 0 40px; 
+    font-size: 22px;   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+
+.video {
+    width: 1400px;
+    height: 800px;      
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    align-items: center;    
+    justify-content:space-around;   
+}
+
+
+
+.acesso-video {
+    text-align: center;
+    margin-top: px;
+
+}
+
+.playlist legend {
+    text-align: center;
+}
+
+.footer {
+    background: rgb(24, 24, 24);
+    width: auto;
+    height: 40px;
+    color: rgb(196, 193, 193);
+    padding: 15px 0 0 15px;
+
+}
