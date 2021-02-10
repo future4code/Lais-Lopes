@@ -1,65 +1,100 @@
 body {
     width: 150vh;
-    height: 100vh;
+    height: 220vh;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
 }
 
 div {
     border: 1px solid black;
-    width: 130vh;  
+    width: 100%;
+    height: 90%;  
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    
+    text-align: center;    
 }
-
 
 
 #first-block {
     background-color: red;
-    width: 150vh;
+    width: 100%;
     height: 10vh;
-    
-  
-
 }
+
 
 .blue-block {
     background-color: blue;
-    width: 35vh;
-    height: 10vh;
-  
-    
+    width: 30%;
+    height: 7%;
 }
 
 .yellow-block {
     background-color: yellow;
-    width: 35vh;;
-    height: 10vh;
-
- 
-    
+    width: 30%;
+    height: 7%; 
 }
 
 .green-block {
     background-color: green;
-    width: 35vh;
-    height: 10vh;
-
-   
+    width: 30%;
+    height: 7%;
 }
+
+
 
 .black-block {
     background-color: black;
     color: white;
-    width: 50vh;
-    height: 50vh;
+    width: 40%;
+    height: 30%;
 }
+
 
 .white-block {
     background-color: white;
-    width: 35vh;;
-    height: 10vh;
+    width: 30%;
+    height: 7%;
+}
+
+
+/*------------ Responsividade--------------*/
+
+@media screen and (min-device-width: 300px) and (max-device-width: 420px) {
+    /*mobile*/
+  
+    div{
+       display: block;                 
+    }
+
+    div .blue-block, .yellow-block, .green-block, .white-block{
+        margin: 15px 0 0 15px; 
+    }
+
+    .black-block {
+        margin: 15px;
+        width: 30%;
+        height: 20%;     
+    }
+}
+
+
+@media screen and (min-device-width: 421px) and (max-device-width: 800px) {
+    /*tablets*/
+  
+    div {
+
+    }
+
+  
+
+
+}
+
+@media screen and (min-device-width: 1200px){
+    /*computadores*/
+
+
+
 }
