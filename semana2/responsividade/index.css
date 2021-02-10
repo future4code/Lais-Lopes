@@ -6,7 +6,8 @@ body {
 }
 
 div {
-    border: 1px solid black;  
+    border: 1px solid black;
+    width: 130vh;  
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -27,7 +28,7 @@ div {
 
 .blue-block {
     background-color: blue;
-    width: 30vh;
+    width: 35vh;
     height: 10vh;
   
     
@@ -35,7 +36,7 @@ div {
 
 .yellow-block {
     background-color: yellow;
-    width: 30vh;
+    width: 35vh;;
     height: 10vh;
 
  
@@ -44,7 +45,7 @@ div {
 
 .green-block {
     background-color: green;
-    width: 30vh;
+    width: 35vh;
     height: 10vh;
 
    
@@ -53,12 +54,12 @@ div {
 .black-block {
     background-color: black;
     color: white;
-    width: 30vh;
-    height: 30vh;
+    width: 50vh;
+    height: 50vh;
 }
 
 .white-block {
     background-color: white;
-    width: 10vh;
+    width: 35vh;;
     height: 10vh;
 }
