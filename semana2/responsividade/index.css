@@ -1,0 +1,65 @@
+body {
+    width: 150vh;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    border: 1px solid black;
+    width: 130vh;  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+
+
+#first-block {
+    background-color: red;
+    width: 150vh;
+    height: 10vh;
+    
+  
+
+}
+
+.blue-block {
+    background-color: blue;
+    width: 35vh;
+    height: 10vh;
+  
+    
+}
+
+.yellow-block {
+    background-color: yellow;
+    width: 35vh;;
+    height: 10vh;
+
+ 
+    
+}
+
+.green-block {
+    background-color: green;
+    width: 35vh;
+    height: 10vh;
+
+   
+}
+
+.black-block {
+    background-color: black;
+    color: white;
+    width: 50vh;
+    height: 50vh;
+}
+
+.white-block {
+    background-color: white;
+    width: 35vh;;
+    height: 10vh;
+}
