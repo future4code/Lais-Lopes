@@ -10,10 +10,10 @@
 */
 
 //1-a
-const nome;
+const nome = "";
 
 //1-b
-const idade;
+const idade = "";
 
 //-c 
 console.log(nome);
