@@ -1,4 +1,4 @@
-EXERCÍCIO 1
+EXERCÍCIO 1  -------------concluso
 
 Leia o código abaixo:
 
@@ -13,10 +13,11 @@ console.log(minhaFuncao(10))
 
 a. O que vai ser impresso no console?
 
-b. O que aconteceria se retirasse os dois `console.log` e simplesmente invocasse a função `minhaFuncao(2)` e `minhaFuncao(10)`? O que apareceria no console?
+b. O que aconteceria se retirasse os dois `console.log` e simplesmente invocasse a função `minhaFuncao(2)` e `minhaFuncao(10)`? O que apareceria no console? 
 
 
-EXERCÍCIO 2
+
+EXERCÍCIO 2  -------------concluso
 
 Leia o código abaixo:
 
@@ -38,7 +39,7 @@ b. Se `arrayDeNomes` mudasse de valor para `["Amanda", "Caio"]`, o que vai ser i
 
 
 
-EXERCÍCIO 3
+EXERCÍCIO 3  -------------concluso
 
 O código abaixo mostra uma função que recebe um array e devolve outro array. Explique em poucas palavras o que ela faz e sugira um nome melhor para ela!
 
